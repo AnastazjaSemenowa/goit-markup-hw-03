@@ -1,4 +1,6 @@
 .hero-btn {
+display: block;
+margin: 0 auto;
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
@@ -6,7 +8,9 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
 background: #4d5ae5;
-
+border-radius: 4px;
+height: 56px;
+min-width: 169px;
 
 }
 
@@ -16,11 +20,20 @@ background: #4d5ae5;
 }
 
 .hero {
-
+   
+text-align: center;
 background: #2e2f42;
+padding: 188px 0;
 
 }
+.hero-wrapper {
+width: 100%;
+}
+
 .hero-title {
+   
+max-width: 496px;
+margin: 0 auto 48px;
 font-size: 56px;
 line-height: 1.07143;
 letter-spacing: 0.02em;

@@ -7,7 +7,19 @@ color: #2e2f42;
 background: #fff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 ol, ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -26,11 +38,21 @@ address{
 
 
 /* Base styles */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 .section {
+ padding: 120px 0;
+ 
 }
 .section-title {
-    font-family: "Roboto", sans-serif;
+  max-width: 412px;
+  margin: 0 auto 50px;
+  
+font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11111;
@@ -50,3 +72,29 @@ color: #4d5ae5;
 .logo-icon {
 color: #2e2f42;
 }
+
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
+}
+
+.container {
+  max-width: 1158px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+
+
