@@ -1,5 +1,7 @@
 .hero-btn {
 display: block;
+padding: 16px 32px;
+border: none;
 margin: 0 auto;
 font-family: "Roboto", sans-serif;
 font-weight: 500;
@@ -9,9 +11,7 @@ letter-spacing: 0.04em;
 color: #fff;
 background: #4d5ae5;
 border-radius: 4px;
-height: 56px;
-min-width: 169px;
-
+cursor: pointer;
 }
 
 .hero-btn:hover,
